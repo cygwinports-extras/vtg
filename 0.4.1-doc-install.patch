@@ -1,0 +1,21 @@
+--- origsrc/vtg-0.4.1/Makefile.am	2009-02-21 09:07:43.000000000 -0600
++++ src/vtg-0.4.1/Makefile.am	2009-02-23 11:38:27.875000000 -0600
+@@ -14,8 +14,7 @@ if HAVE_VSCSHELL
+ SUBDIRS += vsc-shell
+ endif
+ 
+-vtgdocdir = ${prefix}/doc/vtg
+-vtgdoc_DATA = \
++noinst_DATA = \
+         README\
+         COPYING-GPL\
+         COPYING-LGPL\
+@@ -25,7 +24,7 @@ vtgdoc_DATA = \
+         INSTALL\
+         NEWS
+ 
+-EXTRA_DIST = $(vtgdoc_DATA) \
++EXTRA_DIST = $(noinst_DATA) \
+         intltool-extract.in \
+         intltool-merge.in \
+         intltool-update.in 

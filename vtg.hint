@@ -1,0 +1,21 @@
+category: Devel Gnome
+requires: cygwin libglib2.0_0 libgtk2.0_0 libintl8 libreadline6 libvala0
+sdesc: "Vala development tools"
+ldesc: "Vala Toys for gEdit is an experimental collection of plugins 
+that extends the gEdit editor to make it a better programmer editor for 
+the Vala language."
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  gedit-2.24.3-1
+  libgconf2_4-2.24.0-1
+  libgdk_pixbuf2.0_0-2.14.7-2
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
+  libgtksourcecompletion1.0_1-0.5.2-1
+  libgtksourceview2.0_0-2.4.2-1
+  libintl8-0.17-2
+  libpango1.0_0-1.22.4-1
+  libreadline6-5.2.13-11
+  libvala0-0.5.7-1
+

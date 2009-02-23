@@ -1,0 +1,12 @@
+inherit gnome2
+
+DESCRIPTION="Vala Toys for gEdit"
+HOMEPAGE="http://code.google.com/p/vtg/"
+SRC_URI="http://vtg.googlecode.com/files/${P}.tar.bz2"
+PATCH_URI="0.4.1-no-undefined.patch
+           0.4.1-doc-install.patch
+           0.4.1-stdio.patch"
+
+PKG_NAMES="${PN} gedit-${PN}"
+vtg_CONTENTS="usr/bin/ usr/share/"
+gedit_vtg_CONTENTS="usr/lib/gedit-2/"
