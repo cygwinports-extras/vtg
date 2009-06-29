@@ -1,5 +1,5 @@
 category: Devel Editors Gnome
-requires: cygwin gedit libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourcecompletion1.0_1 libgtksourceview2.0_0 libintl8 libpango1.0_0 libvala0 vtg
+requires: gedit libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourcecompletion1.0_1 libgtksourceview2.0_0 libintl8 libpango1.0_0 libvala0 vtg
 external-source: vtg
 sdesc: "gEdit Vala development plugin"
 ldesc: "Vala Toys for gEdit is an experimental collection of plugins 
