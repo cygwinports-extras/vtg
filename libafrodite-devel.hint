@@ -1,6 +1,7 @@
-category: Devel
-requires: libcairo2 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0 vala
-sdesc: "Vala development tools"
+category: Gnome
+requires: libafrodite0 libglib2.0-devel libvala0.10-devel
+external-source: vtg
+sdesc: "Vala completion library (development)"
 ldesc: "Vala Toys for gEdit is an experimental collection of plugins 
 that extends the gEdit editor to make it a better programmer editor for 
 the Vala language."
