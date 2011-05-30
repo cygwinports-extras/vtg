@@ -1,0 +1,21 @@
+--- origsrc/vtg-0.12.0_beta4/afrodite/Makefile.am	2011-05-11 17:01:27.000000000 -0500
++++ src/vtg-0.12.0_beta4/afrodite/Makefile.am	2011-05-29 21:46:56.234749600 -0500
+@@ -69,6 +69,7 @@ libafrodite_la.vala.stamp: $(libafrodite
+ 
+ libafrodite@PACKAGE_SUFFIX@_la_LDFLAGS = \
+ 	-version-info 2:0:0 \
++	-no-undefined \
+ 	$(NULL)
+ 
+ libafrodite@PACKAGE_SUFFIX@_la_LIBADD = \
+--- origsrc/vtg-0.12.0_beta4/vtg/Makefile.am	2011-05-11 17:01:27.000000000 -0500
++++ src/vtg-0.12.0_beta4/vtg/Makefile.am	2011-05-29 21:47:10.512566200 -0500
+@@ -90,7 +90,7 @@ libvtg_la.vala.stamp: $(libvtg_la_VALASO
+ 
+ libvtg_la_LDFLAGS = \
+ 	$(PLUGIN_LIBTOOL_FLAGS) \
+-	-module -avoid-version
++	-module -avoid-version -no-undefined
+ 
+ libvtg_la_LIBADD = \
+ 	$(VTGUTILITYLIBS_LIBS) \

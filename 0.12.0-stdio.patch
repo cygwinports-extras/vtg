@@ -1,0 +1,12 @@
+--- origsrc/vtg-0.12.0_beta4/vtg/vtgoutputview.c	2011-04-27 15:06:35.000000000 -0500
++++ src/vtg-0.12.0_beta4/vtg/vtgoutputview.c	2011-05-29 21:49:33.991772800 -0500
+@@ -35,6 +35,9 @@
+ #include <glib/gi18n-lib.h>
+ #include <gdk/gdkkeysyms.h>
+ 
++#undef stdin
++#undef stdout
++#undef stderr
+ 
+ #define VTG_TYPE_OUTPUT_TYPES (vtg_output_types_get_type ())
+ 

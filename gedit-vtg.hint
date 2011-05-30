@@ -1,5 +1,5 @@
 category: Editors Gnome
-requires: gedit libafrodite0 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libintl8 libpango1.0_0 libvala0.10_0 vtg
+requires: gedit libafrodite0.12_2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libgtksourceview3.0_0 libintl8 libpango1.0_0 libpeas1.0_0 libvala0.12_0 vtg
 external-source: vtg
 sdesc: "gEdit Vala development plugin"
 ldesc: "Vala Toys for gEdit is an experimental collection of plugins 

@@ -1,0 +1,16 @@
+inherit gnome2
+
+DESCRIPTION="Vala Toys for gEdit"
+HOMEPAGE="http://code.google.com/p/vtg/"
+SRC_URI="http://vtg.googlecode.com/files/${P}.tar.bz2"
+
+PATCH_URI="0.12.0-no-undefined.patch
+           0.12.0-stdio.patch"
+
+PKG_NAMES="${PN} libafrodite0.12_2 libafrodite0.12-devel gedit-${PN}"
+vtg_CONTENTS="etc/ usr/bin/*.exe usr/include/gen-project* usr/share/"
+libafrodite0_12_2_CONTENTS="usr/bin/cygafrodite-0.12-2.dll"
+libafrodite0_12_devel_CONTENTS="usr/include/afrodite-0.12/ usr/lib/lib* usr/lib/pkgconfig/"
+gedit_vtg_CONTENTS="usr/lib/gedit/"
+
+MAKEOPTS+=" vtgdocdir=/usr/share/doc/${PN}"

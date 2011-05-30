@@ -1,5 +1,5 @@
 category: Gnome
-requires: libafrodite0 libglib2.0-devel libvala0.10-devel
+requires: libafrodite0.12_2 libglib2.0-devel libvala0.12-devel
 external-source: vtg
 sdesc: "Vala completion library (development)"
 ldesc: "Vala Toys for gEdit is an experimental collection of plugins 
