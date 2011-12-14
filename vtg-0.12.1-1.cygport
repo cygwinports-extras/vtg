@@ -13,4 +13,6 @@ libafrodite0_12_2_CONTENTS="usr/bin/cygafrodite-0.12-2.dll"
 libafrodite0_12_devel_CONTENTS="usr/include/afrodite-0.12/ usr/lib/lib* usr/lib/pkgconfig/"
 gedit_vtg_CONTENTS="usr/lib/gedit/"
 
-MAKEOPTS+=" vtgdocdir=/usr/share/doc/${PN}"
+DIFF_EXCLUDES=".version"
+
+MAKEOPTS+=" vtgdocdir=/usr/share/doc/${PN} libvtgdir=/usr/lib/gedit/plugins"
